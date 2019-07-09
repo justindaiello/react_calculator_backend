@@ -6,7 +6,7 @@ type Answer {
 }
 
 type Mutation {
-  hi: String
+  addAnswer(answer: String): Answer!
 }
 
 type Query {
