@@ -1,0 +1,10 @@
+# import * from './generated/prisma.graphql'
+
+
+type Mutation {
+  createAnswer(answer: String): Answer!
+}
+
+type Query {
+  answers(where: AnswerWhereInput, orderBy: AnswerOrderByInput, skip: Int, after: String, before: String, first: Int, last: Int): [Answer]!
+}
