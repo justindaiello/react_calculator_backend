@@ -10,5 +10,5 @@ type Mutation {
 }
 
 type Query {
-  hi: String
+  answers(where: AnswerWhereInput, orderBy: AnswerOrderByInput, skip: Int, after: String, before: String, first: Int, last: Int): [Answer]!
 }
