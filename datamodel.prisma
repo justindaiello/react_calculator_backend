@@ -1,0 +1,5 @@
+type Answer {
+  id: ID! @id
+  answer: String!
+  createdAt: DateTime! @createdAt
+}
