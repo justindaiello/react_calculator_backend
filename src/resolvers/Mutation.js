@@ -1,10 +1,8 @@
 
 const mutations = {
-  async addAnswer(parent, args, ctx, info) {
+  async createAnswer(parent, args, ctx, info) {
     const answer = await ctx.db.mutation.createAnswer({
-      data: {
-        ...args
-      }
+      data: args
     }, info);
     return answer;
   }

@@ -1,12 +1,8 @@
 # import * from './generated/prisma.graphql'
 
-type Answer {
-  id: ID!,
-  answer: String!
-}
 
 type Mutation {
-  addAnswer(answer: String): Answer!
+  createAnswer(answer: String): Answer!
 }
 
 type Query {

@@ -1,5 +1,5 @@
 type Answer {
   id: ID! @id
-  answer: String!
+  answer: String
   createdAt: DateTime! @createdAt
 }

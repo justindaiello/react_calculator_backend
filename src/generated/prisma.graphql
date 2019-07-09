@@ -4,7 +4,7 @@ type AggregateAnswer {
 
 type Answer {
   id: ID!
-  answer: String!
+  answer: String
   createdAt: DateTime!
 }
 
@@ -15,7 +15,7 @@ type AnswerConnection {
 }
 
 input AnswerCreateInput {
-  answer: String!
+  answer: String
 }
 
 type AnswerEdge {
@@ -36,7 +36,7 @@ enum AnswerOrderByInput {
 
 type AnswerPreviousValues {
   id: ID!
-  answer: String!
+  answer: String
   createdAt: DateTime!
 }
 
