@@ -6,7 +6,6 @@ const mutations = {
     }, info);
     return answer;
   }
-
 }
 
 module.exports = mutations;
